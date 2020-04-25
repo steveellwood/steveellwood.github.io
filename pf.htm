@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Demonstration remote access call to public folder</title>
+</head>
+
+<body background="images/or29.jpg">
+<h2 title="Summary">Summary</h2>
+Public Folders are a widely acceptable form of storing information, in one place for many (or a chosen few) to see.
+
+Issues arise because there is perceived difficulty in providing easy access to this information for people unfamiliar with mail.
+One method often discussed is that of using a link from a web page. We'll demonstrate that below. There are some client configuration issues.
+
+<h2 title="Demonstration">Demonstration</h2>
+This should give you a link to the <A href="showcase.xnk"><img src="images/rd_ball.gif"alt="little red ball">Showcase</A> public folder.
+<h2 title="Issues">Issues</h2>
+For Netscape users - most of us - the client needs to have it's helper apps specially configured - as below:<p>
+Netscape 3 Client Configuration 
+
+If you are using Microsoft Internet Explorer then you need do nothing else. <br>
+If you are using Netscape, the client will have to be configured to recognise .xnk files<br>
+<pre>
+                    1.Open Netscape 
+                    2.Select Options, then General Preferences 
+                    3.Select the Helpers tab 
+                    4.Select the Create New Type box 
+                    5.Enter mime type: application 
+                    6.Enter mime sub type: xnk 
+                    7.Click on OK 
+                    8.Select Launch the application 
+                    9.Browse to C:\Program Files\Microsoft Office\Office\Outlook.exe and click on Open 
+                   10.You will see the text C:\Program Files\Microsoft Office\Office\Outlook.exe in the box.
+                      Select the text and edit the right hand of the line so it now reads :
+                       C:\Program Files\Microsoft Office\Office\Outlook.exe /x 
+                       (with a space and /x added at the end) 
+                   11.Click on OK 
+</pre>
+                 <h3> <b>Netscape 4.5 Client Configuration</b></h3>
+
+                  If you have upgraded to version 4.5 the method is slightly different<p>
+
+ <img src="images/webpf19.gif" width=545 height=362 border=0 alt="First Diagram"><p>
+ <img src="images/webpf20.gif" width=545 height=362 border=0 alt="Second Diagram"><p><p> 
+
+
+Note the additional "1%" at the end of the line.
+<hr>
+<P>
+Information Provider: <a href="http://directory.intra.bt.com/ids/owa/person?id=61057" target="_blank">Steve Ellwood</a>
+Review Date: 9 May 2000<br>
+Copyright: &copy; British Telecommunications plc 2000<br>
+</body>
+</html>
