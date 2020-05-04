@@ -1,7 +1,0 @@
-# ellwood.org.uk: robots.txt  
-# This file is used to allow crawlers to index our site.
-# images disallowed, as they're all called by html files.  
-User-agent: * 
-Disallow: /images/
-
-
